@@ -22,4 +22,6 @@ Console.WriteLine("*******************************************");
 
 double x = (b2 - b1) / (k1 - k2);
 double y = k1 * x + b1;
-Console.WriteLine($"в точке [{Math.Round(x, 2)} : {Math.Round(y, 2)}]");
+
+Console.WriteLine($"Прямые пересекаются точке [{Math.Round(x, 2)} : {Math.Round(y, 2)}]");
+Console.WriteLine("*******************************************");
