@@ -3,7 +3,6 @@
 // значения b1, k1, b2 и k2 задаются пользователем
 
 Console.Clear();
-Random rand = new Random();
 Console.WriteLine("*******************************************");
 Console.WriteLine("Даные две прямые, заданные уравнениями:");
 Console.WriteLine("y = k1 * x + b1, y = k2 * x + b2");
