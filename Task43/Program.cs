@@ -19,8 +19,15 @@ Console.WriteLine("*******************************************");
 Console.WriteLine("Вычисляем точку пересечения прямых...");
 Console.WriteLine("*******************************************");
 
-double x = (b2 - b1) / (k1 - k2);
-double y = k1 * x + b1;
-
-Console.WriteLine($"Прямые пересекаются точке [{Math.Round(x, 2)} : {Math.Round(y, 2)}]");
+if (k1 != k2)
+{
+    double x = (b2 - b1) / (k1 - k2);
+    double y = k1 * x + b1;
+    Console.WriteLine($"Прямые пересекаются точке [{Math.Round(x, 2)} : {Math.Round(y, 2)}]");
+}
+else
+{
+    Console.WriteLine("Прямые параллельны");
+}
 Console.WriteLine("*******************************************");
+
